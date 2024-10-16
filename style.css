@@ -1,0 +1,58 @@
+.main{
+    width: 100%;
+    min-width: 410px;
+    margin: 0;
+    
+}
+.box{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns:  20% 80%;
+    
+}
+div{
+    
+}
+.content{
+    background: yellow;
+    grid-row: span 2;
+    
+}
+.text{
+    padding: 20px 10px;
+}
+.side-1{
+    background: green;
+    height: 100%;
+    cursor: auto;
+    border: 1px solid;
+    overflow: auto;
+    resize: vertical;
+    float: inline-end;
+}
+.side-2{
+    background: red;
+    height: 100%;
+    border: 1px solid;
+    overflow: auto;
+    resize: vertical;
+    float: inline-end;
+}
+.img{
+    float: left;
+    margin: 15px 15px 0px 0px;
+}
+.header{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    height: 5%;
+    background: #ccc;
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    height: 5%;
+    background: #ccc;
+}
